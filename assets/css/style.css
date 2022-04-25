@@ -1,0 +1,91 @@
+﻿/* ==== RESET ========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #d2d2c1;
+    background-image: url(../media/images/fundo.png);
+    font-family: 'Poppins' ;
+}
+
+/* ==== HEADER ========================== */
+.capa {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.capa img{
+    width: 900px;
+}
+.menu {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #333;
+    height: 90px;
+    max-width: 900px;
+    margin: auto; /*centraliza o conteúdo na página*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.menu-botoes {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 90px;
+    max-width: 900px;
+    margin: auto;
+}
+.menu ul li {
+    display: inline;
+    list-style: none;
+    border-left: 2px solid #FFF;
+}
+.menu ul li:first-child {
+    border-left: none;
+}
+.menu li a {
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 3px solid hidden;
+    transition: 0.5s;
+}
+.menu li a:hover,
+.menu .active a {
+    border-bottom: solid 3px #FFF;
+}
+/* ==== MAIN ========================== */
+
+
+.description {
+    background-color: #eeeeee;
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+.description h2 {
+    padding: 0 0 20px 0;
+}
+.description p {
+    padding: 20px 0 20px 0px;
+}
+.description img {
+    border: 10px solid #555;
+    display: flex;
+    margin: auto;
+    width: 500px;
+}
+.rodape {
+    padding: 20px 0;
+    margin: auto;
+    text-align: center;
+}
